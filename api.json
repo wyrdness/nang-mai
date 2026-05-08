@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/nang-mai",
     "maintainers": [
       {
@@ -16,72 +16,118 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "nang-mai",
-    "name": "",
-    "aliases": [],
+    "name": "Nang Mai",
+    "aliases": [
+      { "name": "นางไม้", "language": "Thai", "meaning": "Lady of the Tree / Wood Lady" },
+      { "name": "Rukkhadeva", "language": "Thai (Pali-derived)", "meaning": "tree deity (male equivalent)" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Unknown",
+    "subcategory": "Thai tree-dwelling spirits (general category)",
     "tags": [
+      "thailand",
+      "tree-spirit",
       "folklore",
-      "mythology"
+      "buddhist",
+      "animism",
+      "southeast-asia",
+      "female-spirit"
     ],
     "status": "documented",
     "description": {
-      "summary": "No description available.",
-      "full": ""
+      "summary": "A general Thai folkloric category of female spirits that inhabit large trees. Specific named tree spirits — including Nang Tani and Nang Ta-khian — are types of Nang Mai. The male equivalent is the Rukkhadeva.",
+      "full": "Nang Mai (Thai: นางไม้, 'Lady of the Tree') is the generic Thai folkloric category for female ghosts or spirits that inhabit large trees. Specific named tree spirits — most prominently Nang Tani (of the wild Musa acuminata banana tree) and Nang Ta-khian (of the takhian, Hopea odorata) — are understood as particular instances of Nang Mai. Nang Mai are typically described as young women in pleated traditional Thai dress with shoulder-length hair, said to inhabit invisible 'palaces' within the canopies of their trees. The male equivalent is the Rukkhadeva (รุกขเทวดา), a Pali-derived term for a tree deity who tends to inhabit larger trees such as the banyan. Beliefs around Nang Mai are pragmatic as well as devotional: they are invoked to deter the felling of large trees, with folklore warning that a tree-cutter who disturbs a Nang Mai's home will be cursed, sicken, or lose their mind. Modern offerings include traditional Thai costumes, perfumes, and cosmetic kits, and Thai villagers commonly mark spirit trees with multicoloured (often three-coloured) cloth bands. The tradition is integrated with Theravada Buddhist practice in Thailand: monastic precepts forbidding the cutting of fresh vegetation are widely understood to honor tree spirits, and folk practice happily compromises between formal Buddhism and local animist veneration."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Thai นาง (nang, 'lady') + ไม้ (mai, 'wood, tree').",
+      "meaning": "Literally 'Lady of the Tree' or 'Wood Lady'.",
+      "first_use": "Long-standing Thai folk-religious usage; precise textual emergence undated."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Tree spirit",
+      "subtype": "Female tree-dwelling spirit (generic category)",
+      "variant": "Thai"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "nang-tani", "name": "Nang Tani", "relationship": "subset", "description": "Specific Nang Mai of the wild Musa acuminata banana tree" },
+      { "id": "nang-ta-khian", "name": "Nang Ta-khian", "relationship": "subset", "description": "Specific Nang Mai of the takhian (Hopea odorata) tree" },
+      { "id": "rukkhadeva", "name": "Rukkhadeva", "relationship": "counterpart", "description": "Male Thai tree deity, the masculine counterpart of Nang Mai" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["traditional Thai dress (varies by named spirit)"],
+      "features": [
+        { "feature": "Young woman appearance", "description": "Manifests as a beautiful young woman in traditional Thai pleated dress and sash, with shoulder-length hair", "frequency": "common" },
+        { "feature": "Tree-bound", "description": "Tied to a specific tree, in which she inhabits an invisible 'palace'", "frequency": "always" }
+      ],
+      "morphology": "A culturally specific class of human-form female tree spirits."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Cursing of tree-cutters", "description": "Believed to curse, sicken, or madden anyone who fells the tree she inhabits; potency correlates with the size and sap of the tree", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Protective warning", "description": "Benevolent Nang Mai may warn their owners of upcoming danger", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Seduction", "description": "Some Nang Mai are said to lure men, taking them as husbands or, in malevolent variants, killing them", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["large trees", "village fringes", "forest edges"],
+      "patterns": [
+        "Bound to a specific tree",
+        "Intervenes when the tree is threatened",
+        "Receives offerings of cloth, costumes, cosmetics, and food at the base of the tree"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Nang Mai veneration is found throughout Thailand and in adjacent Theravada-Buddhist Southeast Asia.",
+      "continents": ["Asia"],
+      "countries": ["Thailand", "Laos", "Cambodia"],
+      "regions": [
+        "Mainland Southeast Asia",
+        "Theravada Buddhist cultural sphere"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Sao Ronghai (Chao Mae Takhian Tong Shrine)",
+        "location": {
+          "description": "Saraburi Province, Thailand",
+          "country": "Thailand",
+          "region": "Saraburi"
+        },
+        "notes": "Notable shrine featuring a legendary golden teak pillar believed to house a Nang Mai, with origin mythology connected to Bangkok's founding"
+      }
+    ],
     "temporal": {
       "first_recorded": {
         "date": "Unknown",
         "circa": true,
-        "source": "Traditional folklore"
+        "source": "Long-standing Thai folk tradition"
       }
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Indigenous Thai animism integrated with Theravada Buddhist practice; cognate with broader Southeast Asian tree-spirit traditions.",
+      "earliest_accounts": "Long-standing oral tradition; recorded in modern Thai folkloric and ethnographic writing.",
+      "folklore_connections": "Cognate with other Southeast Asian tree-spirit traditions and with Buddhist Rukkhadeva traditions."
     },
-    "timeline": []
+    "timeline": [],
+    "modern_era": "Nang Mai veneration remains widely practiced in Thailand. Large trees are routinely marked with multicoloured cloth bands and small shrines, especially at temple grounds, village edges, and along rural roads, and the Sao Ronghai (Chao Mae Takhian Tong Shrine) in Saraburi is a notable contemporary site."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,6 +138,7 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -99,16 +146,39 @@
     "audio": [],
     "trace": []
   },
+
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Animist tree spirits",
+        "description": "Traditional Thai animist understanding of Nang Mai as real spiritual beings inhabiting and protecting individual large trees.",
+        "proponents": ["Thai folk religion"],
+        "evidence_cited": ["Continued ritual veneration", "Ubiquitous marking of large trees with coloured cloth"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Cultural-ecological function",
+        "description": "Anthropological reading: Nang Mai beliefs function as a cultural mechanism for the conservation of large trees, by attaching strong taboos to felling them.",
+        "proponents": ["Folklorists and anthropologists of Thai religion"],
+        "evidence_cited": ["Tree-cutter taboo and cursing narratives", "Practical preservation of large trees near villages"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Thai veneration of large trees",
+        "Tying of multicoloured cloth bands around spirit trees",
+        "Offerings of Thai costumes, perfumes, and cosmetics at the base of spirit trees"
+      ],
+      "stories": [
+        "Marriage ceremonies between young men and tree spirits, with offerings of pig head, alcohol, duck, chicken, and fruit performed on Tuesdays or Saturdays",
+        "Tree-cutter curse narratives"
+      ],
+      "beliefs": "Nang Mai are integrated with Theravada Buddhism: monastic precepts forbidding the cutting of fresh vegetation are popularly understood to respect tree spirits."
     },
     "popular_culture": {
       "literature": [],
@@ -117,10 +187,21 @@
       "other": []
     }
   },
+
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Studied within Thai folklore studies and Southeast Asian religion."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-nang-mai",
+      "type": "website",
+      "title": "Nang mai",
+      "publication": "English Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nang_mai",
+      "accessed": "2026-05-07"
+    }
+  ]
 }
